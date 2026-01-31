@@ -1,16 +1,17 @@
 # Milestone 1: Hydra Hub Core System Development - Completion Report
 
-**Milestone ID:** 1
+**Milestone ID:** 1400060
 **Project:** Hydra Hub (Fund14)
-**Submission Date:** [YYYY-MM-DD]
+**Submission Date:** [2026-01-30]
 
 ---
 
 ## 1. Deployed System Access
 
 **Public URLs:**
-*   **Backoffice Demo (Admin):** [Link to Backoffice Demo URL]
-*   **Alpha Testing Environment:** [Link to Alpha Testing URL]
+*   **Backoffice Demo (Admin):** [Backoffice Demo URL](https://demo-back-office.hydrahub.io.vn/)
+*   **Backoffice Demo Api Docs (Admin):** [Backoffice Demo Api Docs URL](https://demo-back-office-api.hydrahub.io.vn/api-docs)
+*   **Alpha Testing Environment:** [Link to Alpha Testing URL]()
 
 **Demo Credentials:**
 Reviewers can use the following credentials to verify role-based functionalities:
