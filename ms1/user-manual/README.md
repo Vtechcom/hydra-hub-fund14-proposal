@@ -14,11 +14,11 @@ This document provides an **end-to-end** guide for users, from account registrat
 
 * Access Hydra Hub at [https://hydrahub.io.vn/](https://hydrahub.io.vn/)
 
-![user registration](../screenshots/home.PNg)
+![user registration](../screenshots/home.PNG)
 
 * Click **Sign up**
 
-![user registration](../screenshots/Singup.PNg)
+![user registration](../screenshots/Singup.PNG)
 
 * Fill in the required account information and submit the request
 * The account status will be **Pending** until approved by an Admin
