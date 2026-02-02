@@ -28,16 +28,32 @@ Reviewers can use the following credentials to verify role-based functionalities
 ### A. Screenshots
 
 **1. User Registration and Login**
-> *[Insert Screenshot: Registration page and successful login view]*
+#### user registation
+![user registation](./ms1/screenshots/Singup.PNg)
+#### user registation
+![user login](./ms1/screenshots/singin.PNG)
+
+
 
 **2. Submitting Hydra Node Access Requests**
-> *[Insert Screenshot: User interface for submitting a new node access request]*
+![submitting a new node access request](./ms1/screenshots/Singup.PNg)
+
+- After registering an account, an account activation request will be sent to the system. Once the account is approved, you can log in and start using the Hydra node.
+
 
 **3. Admin Reviewing and Approving Requests**
-> *[Insert Screenshot: Admin dashboard showing incoming requests and approval controls]*
+
+![admin approve](./ms1/screenshots/3.1-admin-approve.PNG)
+
+![admin approve](./ms1/screenshots/3.2-admin-approve.PNG)
 
 **4. Real-time Node Allocation and Status Display**
-> *[Insert Screenshot: Admin view of active node allocations and system status]*
+
+![Node information](./ms1/screenshots/8.1-hydra-connect.PNG)
+
+![Node information](./ms1/screenshots/8.2-hydra-connect.PNG)
+
+![Node information](./ms1/screenshots/8.3-hydra-connect.PNG)
 
 ---
 
