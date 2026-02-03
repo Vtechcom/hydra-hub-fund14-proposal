@@ -11,15 +11,15 @@
 **Public URLs:**
 *   **Backoffice Demo (Admin):** [Backoffice Demo URL](https://demo-back-office.hydrahub.io.vn/)
 *   **Backoffice Demo Api Docs (Admin):** [Backoffice Demo Api Docs URL](https://demo-back-office-api.hydrahub.io.vn/api-docs)
-*   **Alpha Testing Environment:** [Link to Alpha Testing URL]()
+*   **Alpha Testing Environment:** [Link to Alpha Testing URL](https://uat.hydrahub.io.vn/)
 
 **Demo Credentials:**
 Reviewers can use the following credentials to verify role-based functionalities:
 
-| Role | Email / Username | Password |
-|------|------------------|----------|
-| **Admin** | `admin@hydrahub.app` | `demoAdmin123` |
-| **User** | `user@hydrahub.app` | `demoUser123` |
+| Role | Email / Username | Password | Link |
+|------|------------------|----------| ---- |
+| **Admin** | `admin@hydrahub.app` | `demoAdmin123` | https://demo-back-office.hydrahub.io.vn |
+| **User** | `user@hydrahub.app` | `demoUser@123` | https://uat.hydrahub.io.vn |
 
 ---
 
@@ -29,14 +29,14 @@ Reviewers can use the following credentials to verify role-based functionalities
 
 **1. User Registration and Login**
 #### user registation
-![user registation](./ms1/screenshots/Singup.PNg)
+![user registation](./ms1/screenshots/Singup.PNG)
 #### user registation
 ![user login](./ms1/screenshots/singin.PNG)
 
 
 
 **2. Submitting Hydra Node Access Requests**
-![submitting a new node access request](./ms1/screenshots/Singup.PNg)
+![submitting a new node access request](./ms1/screenshots/Singup.PNG)
 
 - After registering an account, an account activation request will be sent to the system. Once the account is approved, you can log in and start using the Hydra node.
 
