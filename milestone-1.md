@@ -71,14 +71,14 @@ The system has passed internal testing for core functionality, browser compatibi
 | **Responsiveness** | Desktop (1920×1080), Mobile (375×812) | **PASSED** |
 
 **Supporting Evidence:**
-*   [Link to Full QA Test Report Document / PDF]
+*   [Full QA Test Report Document](./ms1/qa-report/readme.md)
 
 ---
 
 ## 4. Documentation Package
 
 **User Manual:**
-*   [Link to Consumer Portal User Guide]
+*   [Consumer Portal User Guide](./ms1/user-manual/README.md)
 
 ---
 
