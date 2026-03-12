@@ -2,7 +2,7 @@
 
 **Milestone ID:** 1400060
 **Project:** Hydra Hub (Fund14)
-**Submission Date:** [2026-03-12]
+**Submission Date:** 2026-03-12
 
 ---
 
@@ -48,7 +48,7 @@ The admin interface includes alerting mechanisms to notify administrators if nod
 
 Five developers performed complete Hydra operation tests: Opening Hydra Head, Committing UTxOs, Submitting transactions, and Executing fanout transactions.
 
-*Developer 1 - Test Evidence:*
+*Developer 1 - Trinh Cuong:*
 
 | Operation | Screenshot |
 |-----------|------------|
@@ -80,12 +80,22 @@ The system has passed testing for provider node integration, runtime monitoring,
 *   [Full QA Test Report Document (EN)](./ms2/qa-report/readme.md)
 *   [Full QA Test Report Document (VI)](./ms2/qa-report/readme-vi.md)
 
+**Detailed Sub-Reports:**
+*   [Server Deployment & Configuration (EN)](./ms2/server-deployment/readme.md) | [(VI)](./ms2/server-deployment/readme-vi.md)
+*   [Hydra Hub Integration Proof (EN)](./ms2/hydra-hub-integration/readme.md) | [(VI)](./ms2/hydra-hub-integration/readme-vi.md)
+*   [Developer Testing Evidence (EN)](./ms2/developer-testing/readme.md) | [(VI)](./ms2/developer-testing/readme-vi.md)
+*   [Monitoring & Alert Verification (EN)](./ms2/monitoring-alerts/readme.md) | [(VI)](./ms2/monitoring-alerts/readme-vi.md)
+
+**Hydra Node State Log:**
+
+The raw Hydra node state log ([`state`](./ms2/state)) contains 8,148 events spanning ~45 hours (`2026-03-10T11:37:33Z` → `2026-03-12T08:25:29Z`), providing machine-readable proof of continuous node operation and the complete Hydra lifecycle (Head Open → UTXO Commit → Transaction → Snapshot → Head Close → Fanout).
+
 **Developer Feedback:**
 *   [GitHub Issue - Feedback Collection](https://github.com/Vtechcom/hydra-hub-fund14-proposal/issues/2)
 
 ---
 
-## Acceptance Criteria Checklist
+## 3. Acceptance Criteria Checklist
 
 Please verify that the following criteria have been met:
 

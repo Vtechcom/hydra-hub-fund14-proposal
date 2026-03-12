@@ -75,11 +75,11 @@ Testing focused on the core functionalities defined in Milestone 2:
 ### 3.6. Developer Testing - Participant Results
 | Developer | Head Open | UTXO Commit | Transaction | Fanout | Overall |
 |-----------|-----------|-------------|-------------|--------|---------|
-| Nguyen Trang | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
-| Nam Quan | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
-| Pham Hai | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
-| Quoc Huy | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
 | Trinh Cuong | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
+| Quoc Huy | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
+| Pham Hai | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
+| Nam Quan | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
+| Nguyen Trang | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass |
 
 ### 3.7. Performance Metrics
 | Metric | Observed Value |
@@ -90,6 +90,25 @@ Testing focused on the core functionalities defined in Milestone 2:
 | Network latency | ~50 ms |
 | Average transaction latency | ~0.5 seconds |
 | Transaction success rate | ~99% |
+
+### 3.8. Usage Logs & Transaction Statistics
+
+Compiled usage logs and transaction statistics covering the entire 24-hour testing timeframe.
+
+**Hydra Node State Log:** [`state`](../state)
+
+| Metric | Value |
+|--------|-------|
+| Total events recorded | 8,148 |
+| Log time range | `2026-03-10T11:37:33Z` → `2026-03-12T08:25:29Z` (~45 hours) |
+| Chain sync events (`TickObserved`) | 5,802 |
+| Deposit lifecycle events (`DepositExpired` / `DepositRecorded`) | 2,252 / 2 |
+| Chain rollbacks handled (`ChainRolledBack`) | 54 |
+| Hydra Head lifecycle | `HeadInitialized` → `HeadOpened` → `CommittedUTxO` (2) → `TransactionReceived` → `SnapshotConfirmed` → `HeadClosed` → `HeadFannedOut` |
+| Snapshot consensus (`PartySignedSnapshot`) | 3 |
+| Network connectivity | `NetworkConnected` (1), `PeerConnected` (1) |
+
+> The state log provides machine-readable proof that the node operated continuously throughout the testing period, successfully processed all Hydra lifecycle operations, and handled chain rollbacks gracefully.
 
 ---
 

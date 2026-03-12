@@ -59,7 +59,7 @@ The admin interface includes alerting mechanisms to notify administrators if nod
 
 Five developers performed complete Hydra operation tests: Opening Hydra Head, Committing UTxOs, Submitting transactions, and Executing fanout transactions.
 
-*Developer 1 - Nguyen Trang:*
+*Developer 1 - Trinh Cuong:*
 
 | Operation | Screenshot |
 |-----------|------------|
@@ -90,6 +90,13 @@ The system has passed testing for provider node integration, runtime monitoring,
 **Supporting Evidence:**
 *   [Full QA Test Report Document (EN)](./qa-report/readme.md)
 *   [Full QA Test Report Document (VI)](./qa-report/readme-vi.md)
+
+**Hydra Node State Log:**
+
+The raw Hydra node state log ([`state`](./state)) contains 8,148 events spanning ~45 hours (`2026-03-10T11:37:33Z` → `2026-03-12T08:25:29Z`), providing machine-readable proof of:
+- Continuous node operation (5,802 `TickObserved` chain sync events)
+- Complete Hydra lifecycle (`HeadInitialized` → `HeadOpened` → `CommittedUTxO` → `TransactionReceived` → `SnapshotConfirmed` → `HeadClosed` → `HeadFannedOut`)
+- Network stability (54 chain rollbacks handled gracefully)
 
 **Developer Feedback:**
 *   [GitHub Issue - Feedback Collection](https://github.com/Vtechcom/hydra-hub-fund14-proposal/issues/2)
