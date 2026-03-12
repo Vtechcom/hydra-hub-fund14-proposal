@@ -22,27 +22,27 @@ The system architecture consists of three main components:
 
 **1. Admin Dashboard - Provider Node Management**
 
-![Admin Dashboard - Node List](./milestone-2-evidence/screenshots/admin-dashboard/admin-dashboard-node-list.png)
+![Admin Dashboard - Node List](./ms2/screenshots/admin-dashboard/admin-dashboard-node-list.png)
 
-![Provider Node Status](./milestone-2-evidence/screenshots/admin-dashboard/provider-node-status.png)
+![Provider Node Status](./ms2/screenshots/admin-dashboard/provider-node-status.png)
 
-![Provider Node Metrics](./milestone-2-evidence/screenshots/admin-dashboard/provider-node-metrics.png)
+![Provider Node Metrics](./ms2/screenshots/admin-dashboard/provider-node-metrics.png)
 
 **2. Node Running - Uptime Validation**
 
 The node maintained operation throughout the required minimum 24-hour continuous testing period.
 
-![Node Terminal Running](./milestone-2-evidence/screenshots/node-running/node-terminal-running.png.png)
+![Node Terminal Running](./ms2/screenshots/node-running/node-terminal-running.png.png)
 
-![Node Running Evidence 1](./milestone-2-evidence/screenshots/node-running/Screenshot%20from%202026-03-11%2018-21-57.png)
+![Node Running Evidence 1](./ms2/screenshots/node-running/Screenshot%20from%202026-03-11%2018-21-57.png)
 
-![Node Running Evidence 2](./milestone-2-evidence/screenshots/node-running/Screenshot%20from%202026-03-11%2018-22-30.png)
+![Node Running Evidence 2](./ms2/screenshots/node-running/Screenshot%20from%202026-03-11%2018-22-30.png)
 
 **3. Provider Alert System**
 
 The admin interface includes alerting mechanisms to notify administrators if node health deteriorates.
 
-![Provider Alert](./milestone-2-evidence/screenshots/provider-alert.png)
+![Provider Alert](./ms2/screenshots/provider-alert.png)
 
 **4. Developer Testing - Hydra Operations**
 
@@ -52,12 +52,12 @@ Five developers performed complete Hydra operation tests: Opening Hydra Head, Co
 
 | Operation | Screenshot |
 |-----------|------------|
-| Head Open | ![Head Open](./milestone-2-evidence/screenshots/dev-test/1/dev-head-open/Screenshot%20from%202026-03-11%2011-15-27.png) |
-| UTXO Committed | ![UTXO Committed](./milestone-2-evidence/screenshots/dev-test/1/UTXO-commited/Screenshot%20from%202026-03-11%2011-23-11.png) |
-| Transaction | ![Transaction](./milestone-2-evidence/screenshots/dev-test/1/dev-transaction/Screenshot%20from%202026-03-11%2011-41-10.png) |
-| Fanout | ![Fanout](./milestone-2-evidence/screenshots/dev-test/1/dev-fanout/Screenshot%20from%202026-03-11%2011-52-38.png) |
+| Head Open | ![Head Open](./ms2/screenshots/dev-test/1/dev-head-open/Screenshot%20from%202026-03-11%2011-15-27.png) |
+| UTXO Committed | ![UTXO Committed](./ms2/screenshots/dev-test/1/UTXO-commited/Screenshot%20from%202026-03-11%2011-23-11.png) |
+| Transaction | ![Transaction](./ms2/screenshots/dev-test/1/dev-transaction/Screenshot%20from%202026-03-11%2011-41-10.png) |
+| Fanout | ![Fanout](./ms2/screenshots/dev-test/1/dev-fanout/Screenshot%20from%202026-03-11%2011-52-38.png) |
 
-> Full screenshot evidence for all 5 developers is available in [`milestone-2-evidence/screenshots/dev-test/`](./milestone-2-evidence/screenshots/dev-test/)
+> Full screenshot evidence for all 5 developers is available in [`ms2/screenshots/dev-test/`](./ms2/screenshots/dev-test/)
 
 ---
 

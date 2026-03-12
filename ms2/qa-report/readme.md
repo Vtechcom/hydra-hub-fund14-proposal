@@ -56,7 +56,7 @@ Testing focused on the core functionalities defined in Milestone 2:
 
 **Evidence:**
 
-![Provider Alert](../../milestone-2-evidence/screenshots/provider-alert.png)
+![Provider Alert](../screenshots/provider-alert.png)
 
 ### 3.4. Uptime Validation
 | ID | Test Case | Expected Result | Status |

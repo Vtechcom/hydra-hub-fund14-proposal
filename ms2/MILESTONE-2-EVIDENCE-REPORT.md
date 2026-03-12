@@ -88,8 +88,8 @@ The system has passed testing for provider node integration, runtime monitoring,
 | **Alert System** | Node unreachable, CPU/RAM threshold alerts | **PASSED** |
 
 **Supporting Evidence:**
-*   [Full QA Test Report Document (EN)](../ms2/qa-report/readme.md)
-*   [Full QA Test Report Document (VI)](../ms2/qa-report/readme-vi.md)
+*   [Full QA Test Report Document (EN)](./qa-report/readme.md)
+*   [Full QA Test Report Document (VI)](./qa-report/readme-vi.md)
 
 **Developer Feedback:**
 *   [GitHub Issue - Feedback Collection](https://github.com/Vtechcom/hydra-hub-fund14-proposal/issues/2)
