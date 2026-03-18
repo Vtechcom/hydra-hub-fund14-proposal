@@ -77,6 +77,9 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 
 ![Dev1 - Fanout 3](../screenshots/dev-test/1/dev-fanout/Screenshot%20from%202026-03-11%2011-56-51.png)
 
+**Logs:**
+[Link](../state-1)
+
 ---
 
 ### 4.2. Developer 2 — Quoc Huy
@@ -107,6 +110,9 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 
 ![Dev2 - Fanout 2](../screenshots/dev-test/2/dev-fanout/Screenshot%20from%202026-03-11%2014-33-00.png)
 
+**Logs:**
+[Link](../state-2)
+
 ---
 
 ### 4.3. Developer 3 — Pham Hai
@@ -136,6 +142,9 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev3 - Fanout 1](../screenshots/dev-test/3/dev-fanout/Screenshot%20from%202026-03-11%2015-21-26.png)
 
 ![Dev3 - Fanout 2](../screenshots/dev-test/3/dev-fanout/Screenshot%20from%202026-03-11%2015-22-09.png)
+
+**Logs:**
+[Link](../state-dev3)
 
 ---
 
@@ -169,6 +178,9 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 
 ![Dev4 - Fanout 2](../screenshots/dev-test/4/dev-fanout/Screenshot%20from%202026-03-11%2016-34-15.png)
 
+**Logs:**
+[Link](../state-dev4)
+
 ---
 
 ### 4.5. Developer 5 — Nguyen Trang
@@ -200,6 +212,9 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev5 - Fanout 1](../screenshots/dev-test/5/dev-fanout/Screenshot%20from%202026-03-11%2017-05-43.png)
 
 ![Dev5 - Fanout 2](../screenshots/dev-test/5/dev-fanout/Screenshot%20from%202026-03-11%2017-06-31.png)
+
+**Logs:**
+[Link](../state-15000)
 
 ---
 
