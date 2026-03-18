@@ -78,7 +78,7 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev1 - Fanout 3](../screenshots/dev-test/1/dev-fanout/Screenshot%20from%202026-03-11%2011-56-51.png)
 
 **Logs:**
-[Link](../state-1)
+> https://github.com/Vtechcom/hydra-hub-fund14-proposal/blob/main/ms2/state-1
 
 ---
 
@@ -111,7 +111,7 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev2 - Fanout 2](../screenshots/dev-test/2/dev-fanout/Screenshot%20from%202026-03-11%2014-33-00.png)
 
 **Logs:**
-[Link](../state-2)
+> https://github.com/Vtechcom/hydra-hub-fund14-proposal/blob/main/ms2/state-2
 
 ---
 
@@ -143,8 +143,7 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 
 ![Dev3 - Fanout 2](../screenshots/dev-test/3/dev-fanout/Screenshot%20from%202026-03-11%2015-22-09.png)
 
-**Logs:**
-[Link](../state-dev3)
+> https://github.com/Vtechcom/hydra-hub-fund14-proposal/blob/main/ms2/state-dev3
 
 ---
 
@@ -179,7 +178,7 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev4 - Fanout 2](../screenshots/dev-test/4/dev-fanout/Screenshot%20from%202026-03-11%2016-34-15.png)
 
 **Logs:**
-[Link](../state-dev4)
+> https://github.com/Vtechcom/hydra-hub-fund14-proposal/blob/main/ms2/state-dev4
 
 ---
 
@@ -214,7 +213,7 @@ Mỗi nhà phát triển thực hiện các thao tác sau thông qua Cổng thô
 ![Dev5 - Fanout 2](../screenshots/dev-test/5/dev-fanout/Screenshot%20from%202026-03-11%2017-06-31.png)
 
 **Logs:**
-[Link](../state-15000)
+> https://github.com/Vtechcom/hydra-hub-fund14-proposal/blob/main/ms2/state-15000
 
 ---
 
