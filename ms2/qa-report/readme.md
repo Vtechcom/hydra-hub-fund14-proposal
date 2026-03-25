@@ -24,6 +24,11 @@ Testing focused on the core functionalities defined in Milestone 2:
 *   **Feedback Collection:** Developer feedback through GitHub issue.
 
 **Test Environment:**
+*   **Admin URL:** `https://uat-back-office.hydrahub.io.vn`
+*   **User URL (UAT):** `https://uat.hydrahub.io.vn`
+*   **Credentials:**
+	*   **Admin:** `admin@gmail.com` / `admin@123`
+	*   **User:** `usertest@gmail.com` / `Strongpassword@123`
 *   **Browsers:** Chrome v120+, Safari v17+
 *   **Devices:** Desktop (1920x1080), Mobile (iPhone X/12/13 - 375x812)
 
