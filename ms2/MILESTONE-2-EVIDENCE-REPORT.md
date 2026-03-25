@@ -74,6 +74,12 @@ Five developers performed complete Hydra operation tests: Opening Hydra Head, Co
 
 ## 3. Testing Evidence (QA Report)
 
+**Test Environment & Credentials:**
+*   **Admin URL:** `https://uat-back-office.hydrahub.io.vn`
+*   **User URL (UAT):** `https://uat.hydrahub.io.vn`
+*   **Admin Account:** `admin@gmail.com` / `admin@123`
+*   **User Account:** `usertest@gmail.com` / `Strongpassword@123`
+
 **Summary of Results:**
 The system has passed testing for provider node integration, runtime monitoring, and developer interaction with Hydra operations.
 
