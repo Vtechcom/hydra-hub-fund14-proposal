@@ -65,8 +65,8 @@ Five developers performed complete Hydra operation tests: Opening Hydra Head, Co
 
 **Test Environment & Credentials:**
 *   **Admin URL:** `https://uat-back-office.hydrahub.io.vn`
-*   **User URL (UAT):** `https://uat.hydrahub.io.vn`
 *   **Admin Account:** `admin@gmail.com` / `admin@123`
+*   **User URL (UAT):** `https://uat.hydrahub.io.vn`
 *   **User Account:** `usertest@gmail.com` / `Strongpassword@123`
 
 **Summary of Results:**
