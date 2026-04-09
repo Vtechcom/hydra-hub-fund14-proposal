@@ -107,7 +107,7 @@ Signer: Admin wallet (recipient param)
 
 ### A. Video Demonstration
 
-**Full Workflow Demo Video:** [payment-subscription-demo.mp4](./ms3/screenshots/payment-subscription-demo.mp4)
+**Full Workflow Demo Video:** [https://youtu.be/8yuqklKH3Qk](https://youtu.be/8yuqklKH3Qk)
 
 The video demonstrates the complete payment subscription workflow:
 

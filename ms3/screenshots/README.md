@@ -6,7 +6,9 @@ This folder contains screenshot and video evidence for the on-chain payment subs
 
 ### Payment Subscription Workflow Demo
 
-- `payment-subscription-demo.mp4` - Full demonstration of the payment subscription workflow including:
+- **YouTube:** [https://youtu.be/8yuqklKH3Qk](https://youtu.be/8yuqklKH3Qk)
+
+Full demonstration of the payment subscription workflow including:
   - Buy (Lock) - User locks ADA to smart contract
   - Refund - Admin refunds payment within dispute period
   - Claim - System claims funds after 24-hour dispute period
