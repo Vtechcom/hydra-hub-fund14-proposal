@@ -20,36 +20,55 @@
 ---
 
 ## List of challenge KPIs and how the project addressed them
-The *F14: Cardano Use Cases: Concept* challenge focuses on lowering the barrier to entry for building on Cardano, expanding the ecosystem's utility, and proving the viability of new concepts. Our project addressed these directly:
-1. **Lowering Technical Barriers:** We addressed the steep learning curve of deploying Layer-2 Hydra nodes by creating a simplified Software-as-a-Service (SaaS) platform. Users no longer need deep DevOps or blockchain infrastructure expertise to spin up a Hydra node.
-2. **Demonstrating Viable Use Cases:** By delivering a working SaaS concept, we proved that Cardano's L2 solutions can be commercialized and distributed efficiently, encouraging more developers to build high-throughput applications on Cardano.
+The *F14: Cardano Use Cases: Concept* challenge requires lowering the technical barrier to entry for building on Cardano and proving the viability of new concepts. We addressed these goals by:
+1. **Lowering L2 Deployment Barriers:** Transforming the complex process of setting up a Hydra Node into a streamlined Software-as-a-Service (SaaS). End-users can now own and operate a Hydra Head without needing advanced DevOps or infrastructure configurations.
+2. **Demonstrating Viable Real-World Use Cases:** Opening the door for game and dApp developers to easily leverage Hydra for high throughput via our distribution system. This was practically demonstrated by the launch of the **Hydra One** alpha application.
 
 ## List of project KPIs and how the project addressed them
-1. **Develop robust backend architecture:** We successfully implemented a highly scalable architecture utilizing **NestJS**, **RabbitMQ** for reliable message queuing, and **Kong Gateway** for robust API routing and management. 
-2. **Automated Hydra Head Configuration & Creation:** We achieved the core functionality allowing users to easily configure and deploy a Hydra Head with a custom number of nodes through our platform interface.
-3. **Integrated Payment & Subscription System:** We successfully built a flexible billing module that allows users to upgrade their accounts, managing usage limits and scaling their node infrastructure dynamically.
-4. **Milestone Delivery:** Successfully completed all four milestones (M1, M2, M3, and Final) within the projected timeline and budget (100,000 ADA).
+The project successfully completed its core KPIs through a strictly managed execution process:
+
+**1. Execution Progress & Time Allocation:**
+The project was rolled out across 4 stages (corresponding to 4 Milestones) over a period of nearly 6 months.
+* **Workflow Overview:** Architecture Design -> Smart Contract (Validator) Development -> Backend & DevOps Engineering -> Frontend (FE) Development -> Integration & Testnet Deployment.
+* **Team Collaboration:** The team was divided into three main units (Smart Contract, Backend/DevOps, Frontend). We utilized Weekly Syncs to ensure API endpoints and validator logic perfectly matched the user interface. Debugging was handled cross-functionally: the FE team reported state issues, the Backend team inspected node logs, and SC developers adjusted on-chain logic accordingly.
+* **Detailed Time Allocation:**
+    * **Validator (Smart Contracts):** Took approximately **1.5 months** to write, optimize, and conduct internal testing to ensure the lock/unlock UTxO logic was secure on the network.
+    * **Backend & DevOps:** Took approximately **2.5 months**. This was the heaviest workload, involving message queue logic (RabbitMQ), NestJS modular architecture, and automated configuration packaging for Hydra Nodes.
+    * **Frontend (UI/UX):** Took approximately **1.5 months** to design the interface, connect APIs, and integrate wallets.
+    * **Remaining Time (~0.5 months):** Dedicated to end-to-end testing, bug fixing, and preparing the acceptance environment for Catalyst Reviewers.
+
+**2. Completed Technical KPIs:**
+* A fully automated Backend system capable of generating Hydra Heads with a custom number of nodes.
+* A smoothly operating payment and account upgrade (Subscription) system.
+* Ensured a live, transparent testing environment for Milestone Reviewers, replacing static screenshots with interactive functionality.
 
 ## Key achievements (in particular around collaboration and engagement)
-* **Core Infrastructure Delivery:** We successfully bridged complex L2 protocols with intuitive Web2-like SaaS experiences, providing a stable foundation for Phase 1. 
-* **The Emergence of Hydra One:** A significant extended achievement was seeing our core platform features utilized by an application named **Hydra One** ([alpha.hydraone.app](https://alpha.hydraone.app)). Hydra One successfully applies Hydra Hub's features to help users easily own personal Hydra nodes. It provides an ideal environment for game and app developers to leverage blockchain transparency alongside Hydra's lightning-fast performance.
-* **Community & Reviewer Engagement:** We maintained active, transparent communication with Catalyst Milestone Reviewers. We successfully navigated the feedback process, adjusting our Proof of Achievement (PoA) strategies to provide functional testing environments rather than relying purely on static reports or screenshots, which fostered greater trust and accountability.
+* **The Emergence of Hydra One:** An unexpected but highly valuable extended achievement was the successful development of [Hydra One](https://alpha.hydraone.app)—a real-world use case that inherits the node distribution capabilities of Hydra Hub. It empowers dApp and Game developers to seamlessly blend blockchain transparency with Hydra's lightning-fast speeds.
+* **Reviewer Engagement:** We maintained candid and constructive dialogue with Catalyst Reviewers during the assessment process (especially in Milestone 1). This feedback loop helped us shift our mindset from "closed security" to providing a "secure but transparent Sandbox" for direct testing, fostering greater trust.
 
-## Key learnings
-* **Protocol Nuances:** Building this system provided our team with an exceptionally deep understanding of Cardano's core architecture and Hydra's practical mechanics. A notable technical hurdle we encountered and successfully resolved involved handling complex transaction validity interval constraints (specifically overcoming `OutsideValidityIntervalUTxO` and `OutsideForecast` errors) when interacting with the protocol.
-* **Security vs. Transparency:** A major operational learning was finding the right balance between securing our public-facing system against spam attacks and providing an open, interactive environment for Milestone Reviewers to validate our code. We learned that clear, upfront communication about security measures and providing dedicated, safe testing sandboxes are critical for decentralized project assessments.
+## Key learnings (Technical Challenges & Insights)
+Building Hydra Hub provided our team with invaluable insights, particularly when navigating the deep technical challenges of Cardano and Hydra:
+
+**1. Overcoming Technical Challenges:**
+* **Handling UTxOs and Slots in Validators:** The most difficult challenge was resolving the `OutsideValidityIntervalUTxO` error and managing the conceptual discrepancy of Slots between Layer 1 and Layer 2. Synchronizing the valid time bounds of transactions passing through the Hydra Validator requires extreme precision; otherwise, transactions are rejected by the Hydra node.
+* **Gateway Routing for Individual Nodes:** Every spawned Hydra node requires an independent, secure communication pipeline. Managing this became difficult as the number of nodes scaled. Our breakthrough solution was integrating **Kong Gateway** to dynamically route APIs for each specific node, which managed traffic and secured endpoints highly effectively.
+* **Frontend (FE) Hurdles:** Maintaining the real-time state of multiple Hydra nodes simultaneously on the UI required us to handle complex WebSocket connections. The FE team had to heavily optimize the state management mechanism to prevent browser memory leaks.
+
+**2. Insights from Developing with Hydra:**
+* **Validator Development with Aiken:** We made the strategic decision to use Aiken instead of traditional Plutus Tx. Aiken provided a much friendlier developer experience, faster compilation, and highly readable syntax. Our takeaway is that the developer community should strongly migrate toward Aiken for L2 projects.
+* **The Critical Importance of Auditing Validators:** Even though Hydra operates on L2, the Validators governing state (Commit/Decommit) reside on the main chain. We learned that internal testing is insufficient; planning a rigorous **Smart Contract Audit** is mandatory before moving the system to Mainnet to prevent any risk of user fund loss.
 
 ## Next steps for the product or service developed
-* **Phase 2 Expansion:** We plan to move beyond the throttled public registration of Phase 1, opening the platform to a wider audience with hardened security measures and automated scaling.
-* **Expanding Hydra One Use Cases:** We will continue to support the ecosystem around Hydra One, specifically targeting integrations for high-volume **micro-payment applications** and **real-time auction platforms**, which perfectly match Hydra's high-throughput capabilities.
-* **Developer Tooling:** We aim to release additional SDKs and APIs to make it even easier for dApp developers to plug into our infrastructure without worrying about underlying node maintenance.
+* **Optimization & Mainnet Launch:** Finalize Phase 1, conduct a comprehensive audit of the Aiken Validators, and prepare for the Mainnet deployment of Hydra Hub.
+* **Expanding the Hydra One Ecosystem:** Actively promote Hydra One to the gaming community and projects requiring high-volume **micro-payments** or **real-time auctions** on Cardano.
+* **Backend Upgrades:** Implement auto-scaling and teardown features for idle nodes to optimize server infrastructure costs.
 
 ## Final thoughts/comments
-We are incredibly grateful to Project Catalyst and the Cardano community for funding and supporting this initiative. The journey from concept to a functioning Phase 1 SaaS platform has been challenging but immensely rewarding. We firmly believe that scalable, easy-to-use Layer-2 infrastructure is the key to mass adoption for Cardano, and Hydra Hub is our contribution to that future. 
+We have successfully translated the complex concepts of Hydra documentation into an intuitive, interactive SaaS platform. This project proves that Cardano is fully capable of supporting high-speed applications via Layer-2 solutions. We are immensely grateful to the Project Catalyst fund for giving us the opportunity to contribute to the expansion of the ecosystem.
 
 ## Links to other relevant project sources or documents
 * **Hydra One Alpha:** [https://alpha.hydraone.app](https://alpha.hydraone.app)
-* **Milestone Tracking:** [Project 1400060 on Catalyst Milestones](https://milestones.projectcatalyst.io/projects/1400060)
+* **Catalyst Milestone Platform:** [Project 1400060](https://milestones.projectcatalyst.io/projects/1400060)
 
 
 ## Link to Close-out video
