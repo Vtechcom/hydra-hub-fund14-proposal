@@ -85,4 +85,4 @@ We have successfully transformed complex concepts in Hydra documentation into an
     * https://forum.cardano.org/t/beyond-bridges-unlocking-true-interoperability-between-bitcoin-lightning-and-cardano-hydra/152501/4
 * **Catalyst Milestone Platform:** https://milestones.projectcatalyst.io/projects/1400060
 * **Link to summary video**
-    * YouTube/Vimeo Link:
+    * YouTube/Vimeo Link: https://youtu.be/zK4M-yxFMzs
