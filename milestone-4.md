@@ -5,14 +5,10 @@
 * **Project Name:** Hydra Hub – SaaS Node Distribution System Phase 1
 * **Funding & Challenge:** Fund 14 - Cardano Use Cases: Concept
 * **Project URL:** https://milestones.projectcatalyst.io/projects/1400060
-* **Your Project Number**
-* 1400060
-* **Project Manager Name**
-* Nguyen Viet Thanh
-* **Project Start Date**
-* November 24, 2025
-* **Project Completion Date**
-* May 15, 2026
+* **Your Project Number:** 1400060
+* **Project Manager Name:** Nguyen Viet Thanh
+* **Project Start Date:** November 24, 2025
+* **Project Completion Date:** May 15, 2026
 
 ---
 
@@ -45,7 +41,7 @@ The project successfully completed its core KPIs through a strictly managed exec
 ---
 
 ## Key Achievements (Especially Regarding Collaboration and Engagement)
-* **The emergence of Hydra One:** An unexpected but highly valuable expanded achievement is the successful development of https://hydraone.app/ — a real-world use case that inherits the node distribution capabilities of Hydra Hub. It allows dApp and Game developers to seamlessly combine blockchain transparency with the lightning-fast speed of Hydra.
+* **The emergence of Hydra One:** An unexpected but highly valuable expanded achievement is the successful development of https://alpha.hydraone.app/ — a real-world use case that inherits the node distribution capabilities of Hydra Hub. It allows dApp and Game developers to seamlessly combine blockchain transparency with the lightning-fast speed of Hydra.
 * **Interaction with reviewers:** We maintained a candid and constructive dialogue with Catalyst reviewers throughout the review process (especially in Phase 1). This feedback loop helped shift our mindset from "closed security" to providing a "secure yet transparent testing environment" for live testing, thereby building greater trust.
 
 ---
@@ -78,7 +74,7 @@ We have successfully transformed complex concepts in Hydra documentation into an
 ---
 
 ## Links to Other Relevant Sources or Project Documentation
-* **Hydra One:** https://hydraone.app with 3 applications currently available that utilize Node provisioning capabilities from Hydra Hub for deployment. And in the near future, many additional applications will be released.
+* **Hydra One:** https://alpha.hydraone.app with 3 applications currently available that utilize Node provisioning capabilities from Hydra Hub for deployment. And in the near future, many additional applications will be released.
 * **Analysis and community sharing articles:**
     * https://forum.cardano.org/t/hydra-hub-and-the-trust-layer-elevating-trust-for-every-dapp-using-hydra/152659
     * https://forum.cardano.org/t/leios-hydra-a-perfect-pair-unlocking-the-high-speed-low-fee-era-on-cardano/152332
